@@ -1,5 +1,6 @@
 html {
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'David Libre', serif;
 	font-size: 1em;
 }
 
@@ -23,7 +24,7 @@ a {
 
 .nav_bar {
 	padding-top: 20px;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	height: 30px;
 }
 
@@ -35,4 +36,12 @@ a {
 .do_inline {
 	vertical-align: middle;
 	display: inline-block;
+}
+
+.intro1 {
+	font-size: 1.8rem;
+}
+
+.intro2 {
+	font-size: 1.7rem;
 }
