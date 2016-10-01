@@ -1,7 +1,10 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
+
 <h2>Content for My App</h2>
-<h1>Hello man how are Ya! {{ firstname }}</h1>
+<h3>Hello man how are Ya! {{ firstname }}</h1>
 <p>Stuff etc etc.</p>
+<!--<img src="{% static 'portfolio/image/my_img.jpg' %}" alt="My Image"/>-->
+
 {% endblock content %}

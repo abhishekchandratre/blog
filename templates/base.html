@@ -1,11 +1,39 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link href="{% static "portfolio/css/main.css" %}" rel="stylesheet">
 	<meta charset="UTF-8">
-	<title>Welcome to my blog</title>
+	<title>Abhishek.S.C</title>
 </head>
 <body>
-	<h1>Hey there how are ya!</h1>
-	{% block content %}{% endblock content %}
+	<div class="wrap">
+		<div class="nav_bar">
+			<header class="do_inline"><a href="/">Abhishek Chandratre</a></header>
+			<nav class="nav_bar_style do_inline">
+				<a href="/blog">Blog</a>
+				<span> - </span>
+				<a href="/projects">Project</a>
+				<span> - </span>
+				<a href="/links">links</a>
+				<span> - </span>
+				<a href="/aboutme">About me</a>
+			</nav>
+		</div>
+		<hr>
+	{% block content %}
+	{% endblock content %}
+		<hr>
+		<footer>
+			<p align="center">
+				<a target="_blank" href="https://github.com/abhishekchandratre">github.com</a>
+				<span> - </span>
+				<a target="_blank" href="https://www.linkedin.com/in/abhishek-chandratre-8613a497">linkedIn</a>
+				<span> - </span>
+				<a href="mailto:abhishek.chandratre@gmail.com">Email</a>
+			</p>
+		</footer>
+	</div>
 </body>
 </html>
