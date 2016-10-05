@@ -10,8 +10,8 @@ def index(request):
 
 def blog(request):
     context = {}
-    template = loader.get_template('portfolio/blog.html')
-    return render(request, 'portfolio/blog.html', context)
+    template = loader.get_template('portfolio/blogs.html')
+    return render(request, 'portfolio/blogs.html', context)
 
 def about_me(request):
     context = {}
@@ -26,5 +26,5 @@ def projects(request):
 def links(request):
     context = {}
     template = loader.get_template('portfolio/links.html')
-    return render(request, 'portfolio/projects.html', context)
+    return render(request, 'portfolio/links.html', context)
 
